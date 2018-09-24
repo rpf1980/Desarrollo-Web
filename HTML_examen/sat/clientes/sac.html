@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>sac.html</title>
+</head>
+<body>
+
+  <nav>
+    <ol>
+      <li>Página principal: <a href="../../index.html">Index</a></li>
+      <li>Despliegue: <a href="../../despliegue//fase1.html">Fase 1</a></li>
+      <li>Comercial: <a href="../../despliegue/comercial/acme/acme.html">Acme</a></li>
+      <li>Soporte Clientes: <a href="sac.html">SAC</a></li>
+    </ol>
+  </nav>
+
+  <h1>sac.html</h1>
+
+  <h2>Servicio de atención al cliente</h2>
+
+  <form action="http://localhost/procesa.php" method="post" enctype="multipart/form-data">
+    
+<fieldset>
+  <legend>Reclamación</legend>
+<p>
+  <label for="describe">Descripción de su reclamación</label><br>
+  <textarea name="describe" id="describe" cols="100" rows="5" maxlength="220"></textarea>
+</p>
+
+<p>Solicita<br>
+  <label><input type="radio" name="solicita" value="devolucion"> Devolucion</label><br>
+  <label><input type="radio" name="solicita" value="reparacion"> Reparacion</label><br>
+  <label><input type="radio" name="solicita" value="indemnizacion">Indemnización</label><br>
+</p>
+
+  <p><label for="lista">Documento que adjunta (puede adjuntar varios ficheros)</label><br>
+  <input type="file" id="lista" multiple value="Examinar..." min="1" max="120" > No se seleccionaron archivos.
+  </p>
+
+  <p> Servicios afectados<br>
+    <label><input type="checkbox" value="telefono" checked name="servicios[]">Telefonía 
+    </label> 
+    <label><input type="checkbox" value="internet" name="servicios[]">Internet</label>
+    <label><input type="checkbox" value="tele" name="servicios[]">Televisión</label>
+    <label><input type="checkbox" value="futbool_formula1" name="servicios[]">Fútbol y Fórmula 1</label>
+  </p>
+
+  <p>
+    <label>Hora de la incidencia
+      <input type="time" name="hora_incidencia">
+    </label>
+  </p>
+
+  <p>
+    <label>Seleccione color <em>aproximado</em> de la pantalla de error: <br>
+    <input type="color" name="color_pantalla">
+    </label>
+  </p>
+</fieldset>
+
+<fieldset>
+  <legend>Datos de usuario</legend>
+
+  <p>
+    <label>Mail* (necesario para poder confirmar la reclamación)<br>
+    <input type="email" name="email" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Clave* (mayuscula seguida de 4 dígitos)<br>
+    <input type="password" name="clave" pattern="[A-Z]{1}[0-9]{4}" placeholder="A1234">
+    </label>
+  </p>
+
+  <p>
+    <label>Edad<br>
+    <input type="number" name="edad" min="1" max="120">
+    </label>
+  </p>
+</fieldset>
+
+<input type="submit" name="enviar" value="Enviar Reclamación"> 
+<input type="reset" name="limpiar" value="Limpiar campos formulario">
+
+  </form>
+          
+</body>
+</html>      
+    
+  
+  
+    
+    
+  
+
+
+

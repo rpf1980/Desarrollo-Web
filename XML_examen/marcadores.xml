@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcadores SYSTEM "marcadores.dtd">
+<!--<?xml-stylesheet type="text/css" href="marcadores.css"?>-->
+<?xml-stylesheet type="text/xsl" href="marcadores.xsl"?>
+<marcadores>
+  <creador>Alfredo Ribas</creador>
+  <compartido>
+    <usuario>Ana</usuario>
+    <usuario>Luis</usuario>
+  </compartido>
+  <pagina codigo="B001" idioma="es">
+    <nombre>Abrirllave</nombre>
+    <descripcion idioma="es">Tutoriales de informática. Abrirllave es un sitio web de tutoriales de informática (CMD, HTML, XML...) con licencia Creative Commons.</descripcion>
+    <url>http://www.abrirllave.com/</url>
+    <categorias>
+      <etiqueta>Tutoriales</etiqueta>
+      <etiqueta>Tecnología</etiqueta>
+    </categorias>
+    <logo>xml.png</logo>
+    <puntuacion>9</puntuacion>
+  </pagina>
+  <pagina codigo="B002">
+    <nombre>Wikipedia</nombre>
+    <descripcion idioma="en">You can browse Wikipedia and work on the pages you want; just click on the "edit" link that appears at the top of all of them. You can start making suggestions to improve the articles, but we encourage you to be brave in editing, since many of the articles have been elaborated through small contributions from different collaborators..</descripcion>
+    <url>http://www.wikipedia.org/</url>
+    <categorias>
+      <etiqueta>Tecnología</etiqueta>
+    </categorias>
+    <logo>lorem.png</logo>
+    <puntuacion>87</puntuacion>
+  </pagina>
+  <pagina codigo="B003">
+    <nombre>W3C</nombre>
+    <descripcion idioma="en">The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards. Led by Web inventor Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web to its full potential. Contact W3C for more information.</descripcion>
+    <url>http://www.w3.org/</url>
+    <categorias>
+      <etiqueta>Tecnología</etiqueta>
+    </categorias>
+    <logo>w3c.png</logo>
+    <puntuacion>22</puntuacion>
+  </pagina>
+  <pagina codigo="B004">
+    <nombre>Senderos</nombre>
+    <descripcion idioma="es">Esta guía, trata de dar a conocer a la población la extensa red de senderos existentes en la provincia de Cádiz, y el valioso patrimonio natural y cultural de este territorio. Del mismo modo, pretende potenciar el turismo natural o rural, aumentar la práctica de un deporte tan saludable como el senderismo, y servir de soporte para la extensión de una red de itinerarios lúdico-deportivos que ayude al desarrollo y promoción sociocultural de la provincia.</descripcion>
+    <url>http://www.guiadecadiz.com/senderos-provincia-cadiz</url>
+    <categorias>
+      <etiqueta>Viajes</etiqueta>
+      <etiqueta>Naturaleza</etiqueta>
+    </categorias>
+    <logo>senderos.png</logo>
+    <puntuacion>15</puntuacion>
+  </pagina>
+</marcadores>

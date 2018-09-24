@@ -1,0 +1,21 @@
+<!--Fichero: lista.dtd
+playlist:-->
+<!ELEMENT playlist (title, creator, info?, image?, date?, extension?, trackList)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT trackList (track*)>
+
+<!ELEMENT track (location, creator, album, title, annotation, duration, image, info, meta?)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT annotation (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+
+<!ATTLIST playlist version (1 | 2) #REQUIRED>
+<!ATTLIST meta rel CDATA #IMPLIED>
+<!ATTLIST extension application CDATA #IMPLIED>

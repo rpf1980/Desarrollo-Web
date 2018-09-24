@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE playlist SYSTEM "lista.dtd">
+<?xml-stylesheet type="text/xsl" href="lista2.xsl"?>
+<playlist version="1">
+    <title>ArtistServer.com: Playlist</title> <!-- title of the playlist -->
+    <creator>Jane Doe</creator>     <!-- name of the author -->
+    <info>ArtistServer.com</info>     <!-- homepage of the author -->
+    <image>foto.jpg</image>
+    <date>2013-05-25T14:52:48-08:00</date>
+    <extension application="http://example.com">
+         Contenido extensible de cualquier tipo 
+    </extension>
+    <trackList>
+        <track>
+              <location>http://media.ArtistServer.com/tracks/367/14048/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Xeo.mp3</location>
+              <creator>Planet Bliss</creator>
+              <album/>
+              <title>Xeo</title>
+              <annotation>Xeo BY: Planet Bliss [Genre: Ambient]</annotation>
+              <duration>341</duration>
+              <image>http://files.artistserver.com/m1/481/367/media/17922.jpg</image>
+              <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/14048/Planet_Bliss</info>
+              <meta rel="http://example.org/key">value</meta>
+        </track>
+
+        
+        <track>
+      <location>http://media.ArtistServer.com/tracks/367/17648/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Magnolia_Bloom.mp3</location>
+      <creator>Bliss</creator>
+      <album></album>
+      <title>Magnolia Bloom</title>
+      <annotation>Magnolia Bloom BY: Planet Bliss [Genre: DownTempo]</annotation>
+      <duration>56</duration>
+      <image>http://files.artistserver.com/m1/481/367/media/22936.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/17648/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/17207/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Time%27s_Kingdom.mp3</location>
+      <creator>Planet </creator>
+      <album></album>
+      <title>Time 27s Kingdom</title>
+      <annotation>Time 27s Kingdom BY: Planet Bliss [Genre: Progressive Electronica]</annotation>
+      <duration>442</duration>
+      <image>http://files.artistserver.com/m1/481/367/media/22464.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/17207/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/16884/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Wishing_Machine.mp3</location>
+      <creator>Planet</creator>
+      <album></album>
+      <title>Wishing Machine</title>
+      <annotation>Wishing Machine BY: Planet Bliss [Genre: Electronica]</annotation>
+              <duration>9</duration>      
+      <image>http://files.artistserver.com/m1/481/367/media/22463.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/16884/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/16607/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Nomad_Soul.mp3</location>
+      <creator>Bliss</creator>
+      <album></album>
+      <title>Nomad Soul</title>
+      <annotation>Nomad Soul BY: Planet Bliss [Genre: DownTempo]</annotation>
+              <duration>125</duration>      
+      <image>http://files.artistserver.com/m1/481/367/media/22462.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/16607/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/16018/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Cital_Club.mp3</location>
+      <creator>Planet Bliss</creator>
+      <album></album>
+      <title>Cital Club</title>
+      <annotation>Cital Club BY: Planet Bliss [Genre: DownTempo]</annotation>
+              <duration>567</duration>      
+      <image>http://files.artistserver.com/m1/481/367/media/20997.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/16018/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/15648/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Willow.mp3</location>
+      <creator>Planet Planet</creator>
+      <album></album>
+      <title>Willow</title>
+      <annotation>Willow BY: Planet Bliss [Genre: DownTempo]</annotation>
+              <duration>0123</duration>      
+      <image>http://files.artistserver.com/m1/481/367/media/20397.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/15648/Planet_Bliss</info>
+    </track>
+    <track>
+      <location>http://media.ArtistServer.com/tracks/367/14107/1/1/5e3012625b1011367d4e/0/Planet_Bliss_-_Rendered.mp3</location>
+      <creator>Bliss Bliss</creator>
+      <album></album>
+      <title>Rendered</title>
+      <annotation>Rendered BY: Planet Bliss [Genre: DownTempo]</annotation>
+      <duration>755</duration>
+      <image>http://files.artistserver.com/m1/481/367/media/18030.jpg</image>
+      <info>http://www.ArtistServer.com/artist/song.cfm/a/367/tid/14107/Planet_Bliss</info>
+    </track>
+        
+        
+        
+    </trackList>
+</playlist>

@@ -1,0 +1,14 @@
+<!ELEMENT proyecto (datos_proyecto, dedicatoria, apartado+)>
+<!ELEMENT datos_proyecto (titulo, autor+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dedicatoria (parrafo+)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT apartado (titulo, seccion*)>
+<!ELEMENT seccion (titulo, parrafo*)>
+
+<!ATTLIST proyecto lang (es | en | fr | ge) #REQUIRED>
+<!ATTLIST apartado id ID #REQUIRED>
+<!ATTLIST parrafo estilo (cita | codigo | normal) "normal">

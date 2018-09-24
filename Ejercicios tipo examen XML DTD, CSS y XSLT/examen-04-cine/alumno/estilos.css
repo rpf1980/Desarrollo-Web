@@ -1,0 +1,36 @@
+/* estilos.css */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+table, th, td {
+	border: 1px solid blue;
+	padding: 0 0.4em;
+	border-collapse: collapse;
+}
+.numero {
+	text-align: right;
+}
+ol > li {
+	margin-bottom: 2em;
+	border: 1px dotted blue;
+}
+p {
+	font-style: italic;
+}
+
+/* layout */
+h2 {
+	border-bottom: 1px solid blue;
+	clear:both;
+}
+section#desc{
+	float: left;
+	width:65%;
+}
+section#reparto {
+	width:35%;
+	float: left;
+}

@@ -1,0 +1,77 @@
+/* marcadores.css */
+
+/*Elementos que ya no aparecen*/
+compartido, logo, puntuacion{
+	display: none;
+}
+
+/*MARGENES TOTALES*/
+*{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*CABECERA*/
+creador{
+	display: block;
+	background-color: yellow;
+	text-align: center;
+	border-bottom: 2px solid blue;
+}
+
+/*Reset del contador*/
+marcadores{
+	counter-reset: contador;
+}
+
+/*Los 4 artículos de la página*/
+pagina{
+	display: block;
+	width: 40%;
+	float: left;
+	margin-top:20px;
+	margin-bottom: 20px;
+	/*Incremento del marcador*/
+	counter-increment: contador;
+}
+
+/*Ubicamos el marcador*/
+nombre::before{
+	content: counter(contador)".- ";
+}
+
+nombre{
+	display: block;
+	font-size: 17pt;
+	font-weight: bold;
+}
+
+/*Elementos que contienen las paginas*/
+descripcion{
+	display: block;
+	font-style: italic;
+	border-top: 2px dashed blue;
+}
+
+url{
+	font-weight: bold;
+}
+
+categorias::before{
+	content: "Categorías: ";
+}
+
+categorias{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+etiqueta{
+	display: list-item;
+}
+
+pagina::after{
+	content: "Código página: " attr(codigo);
+	margin-left: 30px;
+}

@@ -1,0 +1,17 @@
+<!ELEMENT playlist (title,creator,info,image?,date?,extension?,trackList)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT info (#PCDATA)#IMPLIED>
+<!ELEMENT image (#PCDATA)#IMPLIED>
+<!ELEMENT date (#PCDATA)#IMPLIED>
+<!ELEMENT extension (#PCDATA)#IMPLIED>
+<!ELEMENT trackList (track*)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT annotation (#PCDATA)>
+<!ELEMENT duration (#PCDATA)#IMPLIED>
+<!ELEMENT meta (#PCDATA)#IMPLIED>
+
+<!ATTLIST playlist version (1 |2 |)#REQUIRED>
+<!ATTLIST meta rel CDATA #IMPLIED>
+<!ATTLIST extension application CDATA #IMPLIED>

@@ -1,0 +1,16 @@
+/*impresora.css*/
+
+* {
+    box-sizing: border-box;
+}
+
+@media only print and (max-width: 640px) {
+	#contenedor {
+		font-family: Verdana;
+		font-size: 14pt;
+	}
+
+	aside {
+		display: none;
+	}
+}

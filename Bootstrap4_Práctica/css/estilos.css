@@ -1,0 +1,85 @@
+/*File: estilos.css*/
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .carousel-inner h3{
+    font-family: fcarousel;
+  }
+  #fondos .carousel-inner{
+    width: 50%;
+    height: 50%;
+    margin:center;
+  }
+  
+  ul li{
+    font-family: fnav;
+  }
+
+  #seccion1{
+    font-family: fseccion;
+  	background-color: lightcyan;
+  }
+  #personajes{
+    background-color: lightcyan;
+    background: url(../imagenes/bombilla.jpg) repeat-y center,
+    url(../imagenes/camara.jpg) repeat-y right;
+    background-color: lightcyan;
+    clear: both;
+    margin-top:10px;
+  }
+  #personajes img{
+    margin-left: 50px;
+  }
+
+  #seccion1 h2:hover{
+  	text-align: center;
+  	color: red;
+  	font-weight: bold;
+  	background-color: black;
+  	font-size: 3em;
+    border-radius: 10px;
+  }
+
+  #fondos{
+  	clear: both;
+  	margin-top: 10px;
+  }
+
+  .jumbotron{
+    font-family:jumbo;
+    clear: both;
+  }
+ 
+ #formulario {
+  margin-top: 10px;
+  background-color: lightcyan;
+ }
+
+ figcaption{
+  font-family: fh2;
+  font-size: 140%;
+  font-weight: bold;
+  margin-left: 170px;
+ }
+
+ @font-face{
+  font-family: fcarousel;
+  src:url(../fuentes/EastSeaDokdo-Regular.ttf);
+ }
+ @font-face{
+  font-family:fh2;
+  src:url(../fuentes/Acme-Regular.ttf);
+ }
+ @font-face{
+  font-family: jumbo;
+  src:url(../fuentes/PermanentMarker-Regular.ttf);
+ }
+ @font-face{
+  font-family:fseccion;
+  src:url(../fuentes/Handlee-Regular.ttf);
+ }
+ @font-face{
+  font-family:fnav;
+  src:url(../fuentes/RussoOne-Regular.ttf)
+ }

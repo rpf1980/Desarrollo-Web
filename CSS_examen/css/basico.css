@@ -1,0 +1,133 @@
+/*basico.css*/
+
+* {
+	box-sizing: border-box;
+}
+
+#contenedor {
+	background-color: beige;
+}
+
+
+/*FOOTER*/
+footer.prueba ul {
+	float: left;
+	width: 50%;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+footer label {
+	display: block;
+	margin: 1em;
+}
+
+input[type="submit"] {
+	margin-left: 1em;
+}
+
+footer form {
+	float: right;
+	width: 50%;
+	background-color: rgb(178, 224,221);
+	padding-bottom: 1em;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+	font-weight: bold;
+	color: orange;
+	font-size: 110%;
+}
+
+/*NAV*/
+nav {
+	clear: both;
+	background-image: url(../figuras/boat.png);
+	padding: 0 48px 0 48px;
+	background-repeat: repeat-y;
+	background-position: left right;
+}
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	list-style-image: url(../figuras/activo.png);
+	font-weight: bold;
+}
+
+/*CREACIÓN DE TIPO DE LETRA*/
+@font-face {
+	font-family: miletra;
+	src: url(../fonts/Brusher.ttf);
+}
+
+nav h2 {
+	text-align: center;
+	border-bottom: 2px solid;
+	font-weight: normal;
+	font-family: miletra;
+}
+
+/*HEADER*/
+header > h1 {
+	text-align: center;
+	border: 1px solid;
+	border-radius: 20px;
+	padding: 0.5em;
+	margin-right: 30%;
+	margin-left: 30%;
+	text-align: right;
+}
+
+/*SECTION*/
+h1 + img,
+h2 + img {
+	float: right;
+}
+
+h3 + img {
+	float: left;
+	box-shadow: 10px 10px 10px grey;
+	opacity: 0.4;
+	margin: 1em;
+}
+
+section p:nth-of-type(2n+1) {
+	color: grey;
+	font-style: italic;
+	padding-left: 2em;
+}
+
+section {
+	counter-reset: numero;
+}
+
+section [class="citas"]:before {
+	counter-increment: numero;
+	content: " [" counter(numero) "] ";
+	color: red;
+	font-weight: bold;
+}
+
+section dfn[title$="revisar"] {
+	background-color: yellow;
+}
+
+section dfn[title$="revisar"]:after {
+	content: " (" attr(title) ") ";
+	font-size: 60%;
+	vertical-align: top;
+}
+
+/*ASIDE*/
+aside {
+	border-top: 2px solid;
+}

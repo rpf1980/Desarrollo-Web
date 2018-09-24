@@ -1,0 +1,31 @@
+/* estilo-xsl.css */
+.en {
+  font-style: italic;
+  color: grey;
+}
+
+header {
+  text-align: center;
+}
+th, td {
+  border: 1px dotted grey;
+  padding: 0.2em 0.5em;
+}
+th {
+  background-color: beige;  
+  color: green;
+}
+th[scope="row"] {
+  color: blue;
+}
+
+td p {
+  font-size: 80%;
+}
+
+td ul {
+  padding: 10px;
+}
+
+
+

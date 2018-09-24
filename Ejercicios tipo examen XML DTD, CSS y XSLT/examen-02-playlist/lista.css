@@ -1,0 +1,15 @@
+/*Fichero css:
+lista.css asociada a lista_css.xml*/
+
+table,tr,td{
+	border:1px solid black;
+}
+.verde{
+	color:green;
+}
+.rojo{
+	color:red;
+}
+th{
+	background-color: green;
+}
